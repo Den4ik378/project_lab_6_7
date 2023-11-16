@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(152, 152, 152);
+  background: linear-gradient(
+    90deg,
+    rgba(152, 152, 152, 1) 0%,
+    rgba(222, 222, 222, 1) 56%,
+    rgba(242, 242, 242, 1) 93%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
